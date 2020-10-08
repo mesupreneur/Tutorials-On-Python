@@ -1,4 +1,5 @@
 # TUTORIAL1
 basic tutorial on python
-This is the tutorial 1 for python
-Basic concept about print,end="",comments,escape character
+This is the tutorials on python
+1)print,end="",comments,escape character
+2)variables,datatype,typecasting
