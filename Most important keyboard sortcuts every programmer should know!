@@ -1,0 +1,48 @@
+Ctrl + S - Save
+Ctrl + C - Copy
+Ctrl + V - paste
+Ctrl + Z - Undo
+Ctrl + Y - Redo
+Windows + D - Minimise all windows, goto desktop.
+Windows + Up Arrow - Maximise current window/app
+Windows + Left/ Right Arrow - Move current window/app to left/right side of/next screen.
+Ctrl + Tab - Application Tab Move
+Shift + Ctrl + Tab - Reverse Application Tab Move
+Alt + Left Arrow - Go back - Last Cursor Position, this could be in a different file.
+Alt + Right Arrow - Go forward - Last Cursor Position the other way! Did you go too far? Don't worry, undo your undo!
+Ctrl + Shift + F - Find in all Files
+Really useful if GoTo Definition is not working, or you're looking for a String!
+Ctrl + K + C - Comment
+Ctrl + K + U - Uncomment
+Ctrl + / - Comment Toggle
+Alt + Shift + Up Arrow - Duplicate line above
+Alt + Shift + Down Arrow - Duplicate line below
+Ctrl + Shift + R - Refactor
+F12 - Goto Definition
+F2 - Rename
+Ctrl + D - Multi Cursor, Select next occurrence
+Ctrl + Shift + L - Multi Cursor, Select All in File
+Ctrl + P - Quick Find - Files, Etc
+Ctrl + Shift + t - Opens previously closed tab in browser! 
+CURSOR MOVEMENT:
+    ARROWS -> move character by character
+
+    CTRL + ARROWS -> move word by word
+
+    HOME -> Go to the first character of the line
+
+    END -> Go to the last character of the line
+
+    CTRL + HOME -> Go to the start of the file
+
+    CTRL + END -> Go to the end of the file
+ SELECTION:
+    SHIFT + CURSOR MOVEMENT -> move selecting text
+ COPY & PASTE:
+    CTRL + INS -> Copy the selected test TO the clipboard (COPY)
+
+    SHIFT + DEL -> Move the selected test TO the clipboard (CUT)
+
+    SHIFT + INS -> Move the selected test FROM the clipboard (PASTE)
+
+   
