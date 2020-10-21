@@ -66,7 +66,7 @@ print(he)
 #Mutable=can change(list)
 #Immutable=cannot change(tuple)
 #tuple
-tp=(1,2,3,"me")#this braket is knows as paranthathis
+tp=(1,2,3,"me")#this braket is knows as parentheses
 print(tp)
 """in tuple if we write tp[1]=8 than it shows error because here we cannot change the value"""
 #to exchange the value between a and b there is traditional and modern method
