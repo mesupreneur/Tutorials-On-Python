@@ -5,3 +5,4 @@ This is the tutorials on python
 2)variables,datatype,typecasting(Making simple calculator)
 3)String slicing and other functions.
 4)Python list and list functions
+5)Dictionary and its functions.
