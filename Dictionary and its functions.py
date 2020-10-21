@@ -3,7 +3,7 @@ dict1={}
 print(type(dict1))
 #donot forget that {}braket is used as dictionary 
 #In list we use [] braket and it is called mutable(can change the value in the list)
-#In list we use ()bracket or tuple  and it is called immutable (cannot change the value in the list)
+#In tuple we use ()bracket and it is called immutable (cannot change the value in the list)
 #In dictinary keys are immutable
 d1={"Mesup":"name of person who live in Milanchowk","Abhiskar":"name of the person who live in Kalikanagar"}
 print(d1)
