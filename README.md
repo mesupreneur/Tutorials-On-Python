@@ -8,3 +8,4 @@ This is the tutorials on python
 5)Dictionary and its functions.
 6)Dictionary exercise(Create a dictionary and take input from the user and return the meaning of the word from the dictionary)
 7)Sets in python
+8)if,elif and else condition.
