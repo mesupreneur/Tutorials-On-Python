@@ -2,5 +2,6 @@ d1={"coding":"the process of assigning a code to something for classification","
 print("coding")
 print("python")
 print("facebook")
+print("Django")
 a= input("Enter which meaning you want from up: ")
 print("The word " + a + " means",d1[a])
