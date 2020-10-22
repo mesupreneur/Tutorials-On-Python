@@ -1,12 +1,16 @@
 Python Conditions and If statements
 
 Python supports the usual logical conditions from mathematics:
-
+IF WE USE if THEN PYTHON IT CHECKS ALL THE LINE LINE BY LINE ALSO AFTER THE CONDITION GET SATISFIED
     Equals: a == b
     Not Equals: a != b
     Less than: a < b
     Less than or equal to: a <= b
     Greater than: a > b
     Greater than or equal to: a >= b
+
 The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+BUT IF WE USE elif THAN IT CHECKS THE LINE AND 
+IF THE CONDITION GETS SATISFIED THEN DIRECTLY 
+PRINT THE OUTPUT RATHER THAN CHECKING OTHER LINES (ITS HEPLS TO MAKE THE PROGRAM FAST)
 The else keyword catches anything which isn't caught by the preceding conditions.
