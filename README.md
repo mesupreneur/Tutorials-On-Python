@@ -9,3 +9,4 @@ This is the tutorials on python.
 6)Sets in python.
 7)if,elif and else condition.
 8)For loops in python.
+9)While loops in python.
