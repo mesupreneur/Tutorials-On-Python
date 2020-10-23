@@ -8,4 +8,3 @@ This is the tutorials on python
 5)Dictionary and its functions.
 6)Sets in python
 7)if,elif and else condition.
-9)if,elif and else exercise(eligible or not for driving)
