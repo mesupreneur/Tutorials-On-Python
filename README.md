@@ -10,3 +10,4 @@ This is the tutorials on python.
 7)if,elif and else condition.
 8)For loops in python.
 9)While loops in python.
+10)Operators in python.
