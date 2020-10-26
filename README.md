@@ -12,4 +12,5 @@ This is the tutorials on python.
 9)While loops in python.
 10)Operators in python.
 11)short hand if else.
-12)Functions and Docstrings
+12)Functions and Docstrings.
+13)Try Except Exception Handling In Python.
