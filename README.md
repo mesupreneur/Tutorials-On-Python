@@ -11,3 +11,4 @@ This is the tutorials on python.
 8)For loops in python.
 9)While loops in python.
 10)Operators in python.
+11)short hand if else.
