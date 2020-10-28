@@ -1,0 +1,20 @@
+#to know where is the pointer(how many character)
+f=open("file_read.txt")
+print(f.tell())
+print(f.readline())
+print(f.tell())
+print(f.readline())
+print(f.tell())
+print(f.readline())
+print(f.tell())
+#seek help to bring the pointer where it want like seek(0) helps to bring pointer to the beginning 
+#and if after seek(0), we print(f.readline())then it print the begining line
+f=open("file_read.txt")
+print(f.readline())
+f.seek(0)
+print(f.readline())
+f.seek(0)
+print(f.readline())
+f.seek(11)#it helps to print from coder.
+print(f.readline())
+f.close()
