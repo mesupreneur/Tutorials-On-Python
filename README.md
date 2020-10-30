@@ -15,3 +15,4 @@ This is the tutorials on python.
 12)Functions and Docstrings.
 13)Try Except Exception Handling In Python.
 14)File IO Basics in python.
+15)Scope,Global_Variables_and_Global_variables
