@@ -17,3 +17,4 @@ This is the tutorials on python.
 14)File IO Basics in python.
 15)Scope,Global_Variables_and_Global_variables
 16)External_and_built_in_modules.py 
+17)F-strings_and_string_formatting.py
