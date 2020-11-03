@@ -18,3 +18,4 @@ This is the tutorials on python.
 15)Scope,Global_Variables_and_Global_variables
 16)External_and_built_in_modules.py 
 17)F-strings_and_string_formatting.py
+18)*args and **kwargs in python.
