@@ -21,3 +21,5 @@ This is the tutorials on python.
 18)*args and **kwargs in python.
 19)time_module in python
 20)enumerate_in_python.py
+21)import_module_in _python.py
+22)file2.py
