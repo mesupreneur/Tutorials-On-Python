@@ -25,3 +25,4 @@ This is the tutorials on python.
 22)import_module_in _python.py
 23)file2.py
 24)if __name__ == "__main__"
+25)join_funcion.py
