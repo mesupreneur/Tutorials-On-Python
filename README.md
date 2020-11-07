@@ -26,3 +26,4 @@ This is the tutorials on python.
 23)file2.py
 24)if __name__ == "__main__"
 25)join_funcion.py
+26)map_filter_reduce.py
