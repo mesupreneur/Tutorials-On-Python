@@ -27,3 +27,4 @@ This is the tutorials on python.
 24)if __name__ == "__main__"
 25)join_funcion.py
 26)map_filter_reduce.py
+27)tutorial>26/decorators_in_python.py
