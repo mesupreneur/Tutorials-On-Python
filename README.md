@@ -28,3 +28,4 @@ This is the tutorials on python.
 25)join_funcion.py
 26)map_filter_reduce.py
 27)tutorial>26/decorators_in_python.py
+28)tutorial>26/read_classes_and_objects
