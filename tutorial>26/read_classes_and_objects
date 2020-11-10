@@ -24,4 +24,8 @@ Index     Procedure Oriented Programming
 3         Procedural programming does not provide any proper way for data binding, so it is less secure. In Procedural programming, we can access the private data.
 4         The program is divided into functions.
 In this tutorial, we have discussed the basics of object-oriented programming. In the next tutorial Creating Our First Class in Python, we will start implementing the OOP concepts. 
+# class-template (already written something and adding somthing to it)
+# for example of class like if you have anything that is written already and we have to add something (no need to write again and again)
+# object-particular thing (instence of the class) or after writting detail in template the final thing is object.
+their main purpose is donot repeat again and again
 
