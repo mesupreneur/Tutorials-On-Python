@@ -30,3 +30,5 @@ This is the tutorials on python.
 27)tutorial>26/decorators_in_python.py
 28)tutorial>26/read_classes_and_objects
 29)tutorial>26/classes_and_objects.py
+30)tutorial>26/instance_and_class_variable.py
+
