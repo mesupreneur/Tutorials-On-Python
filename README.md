@@ -35,4 +35,4 @@ This is the tutorials on python.
 32)''''class_method_.py
 32)class_method(read)
 33)class_methods_as_alternative.py
-33)
+34)static_methods.py
