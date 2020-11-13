@@ -32,3 +32,4 @@ This is the tutorials on python.
 29)tutorial>26/classes_and_objects.py
 30)tutorial>26/instance_and_class_variable.py
 31)''''Self and __init__()(Constructors).py
+32)''''class_method_.py
