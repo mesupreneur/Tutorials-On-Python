@@ -34,4 +34,5 @@ This is the tutorials on python.
 31)''''Self and __init__()(Constructors).py
 32)''''class_method_.py
 32)class_method(read)
+33)class_methods_as_alternative.py
 33)
