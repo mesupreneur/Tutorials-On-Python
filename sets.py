@@ -41,4 +41,4 @@ print(s4.isdisjoint(s5))
 s9=set({2,3,5,7})
 s9.remove(2)
 print(s9)
-[Chapter 1 - Practice set.pdf](https://github.com/iammesup/TUTORIALS-ON-PYTHON/files/5557819/Chapter.1.-.Practice.set.pdf)
+
