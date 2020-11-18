@@ -38,3 +38,4 @@ This is the tutorials on python.
 33)class_methods_as_alternative.py
 34)static_methods.py
 35)Abstraction_and_Encapsulation
+36)single_inheritance.py
