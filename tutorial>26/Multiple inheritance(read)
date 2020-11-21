@@ -35,22 +35,12 @@ Announcements
 Multiple Inheritance | Python Tutorials For Absolute Beginners In Hindi #61
 In the previous Tutorial i.e., tutorial#60, we learned the concept of inheritance and did some examples related to single inheritance. Single inheritance exists when a class is only derived from a single base class. Or in other words, when a child class uses the methods and properties of only a single parent class, then single inheritance is exhibited.
 
- 
-
-
-
 Figure1: Single Inheritance
 
 In this tutorial, we are going to learn about Multiple inheritance. Let us start with a definition:
 
 "In multiple inheritance a class is derived from more than one class i.e. multiple base classes. The child class in this case has features of both the parent classes."
-
-
- 
 As the name implies, python's multiple inheritance is when a class inherits from more than one class.This concept is very similar to multilevel inheritance, which also is our next topic of this course. It is also nearly the same as a single level inheritance because it contains all of the same functionality, except for the number of base classes. 
-
-
- 
 While using the concept of multiple inheritance, the order of placing the base classes is very important. Let us clear the concept using an example. Suppose we have a child class named Child1, and it has two base classes, named Base1 and Base2.
 
 Example:
