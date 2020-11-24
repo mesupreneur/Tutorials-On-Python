@@ -39,5 +39,5 @@ This is the tutorials on python.
 34)static_methods.py
 35)Abstraction_and_Encapsulation
 36)single_inheritance.py
-37)multiple inheritance
-38)multilevel inheritance
+37)multiple_inheritance
+38)multilevel_inheritance.py
