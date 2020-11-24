@@ -1,0 +1,200 @@
+Course Content
+Overview
+Q&A
+Files
+Announcements
+Multilevel Inheritance | Python Tutorials For Absolute Beginners In Hindi #62
+In Tutorial#60, we learned inheritance, and in the previous tutorial of this course i.e., tutorial#61 ,
+we leaned multiple inheritance. These topics are very important and crucial for us to understand today's topic, which is Multilevel inheritance.
+Figure 1: Multiple Inheritance
+
+Multiple inheritance and Multilevel inheritance are very similar concepts. If you have a complete understanding of multiple inheritance than understanding, multilevel will take no time. 
+The minimum number of classes for Multilevel inheritance is the same as for multiple inheritance i.e., three. 
+
+What is Multilevel Inheritance in Python?
+In multilevel inheritance, a class that is already derived from another class is derived by a third class. So in this way, the third class has all the other two former classes' features and functionalities.
+The syntax looks something like this:
+class Parent1:
+    pass
+class Derived1(Parent1):
+    pass
+class Derived2(Derived1):
+    pass
+Now let us dive into the priority brought by the ordering of the class. 
+Suppose that we are looking for a constructor or a value for any variable. 
+Our program will first check our current class i.e., Derived2, for it. 
+If nothing found, then it will move towards Derived1 and in order at last towards Parent1 until it finds the constructor or variable in the way.
+If we have the same method or variable in the base and derived class,
+then the order we discussed above will be followed, and the method will be overridden.
+Else, if the child class does not contain the same method, then the derived1 class method will be followed by the sequence defined in the paragraph above.
+For Example:
+class level1:
+      def first(self):
+            print ('code')
+
+class level2(level1): #inherit level1
+      def second(self):
+             print ('with')
+
+class level3(level2): #inherit level2
+      def third(self):
+            print ('harry')
+
+obj=level3()
+obj.first()
+obj.second()
+obj.third()
+ourse Content
+Overview
+Q&A
+Files
+Announcements
+Multilevel Inheritance | Python Tutorials For Absolute Beginners In Hindi #62
+In Tutorial#60, we learned inheritance, and in the previous tutorial of this course i.e., tutorial#61 , we leaned multiple inheritance. These topics are very important and crucial for us to understand today's topic, which is Multilevel inheritance.
+
+ 
+
+
+
+Figure 1: Multiple Inheritance
+
+Multiple inheritance and Multilevel inheritance are very similar concepts. If you have a complete understanding of multiple inheritance than understanding, multilevel will take no time. The minimum number of classes for Multilevel inheritance is the same as for multiple inheritance i.e., three. 
+
+What is Multilevel Inheritance in Python?
+In multilevel inheritance, a class that is already derived from another class is derived by a third class. So in this way, the third class has all the other two former classes' features and functionalities. The syntax looks something like this:
+
+class Parent1:
+    pass
+class Derived1(Parent1):
+    pass
+class Derived2(Derived1):
+    pass
+Now let us dive into the priority brought by the ordering of the class. Suppose that we are looking for a constructor or a value for any variable. Our program will first check our current class i.e., Derived2, for it. If nothing found, then it will move towards Derived1 and in order at last towards Parent1 until it finds the constructor or variable in the way.
+
+If we have the same method or variable in the base and derived class, then the order we discussed above will be followed, and the method will be overridden. Else, if the child class does not contain the same method, then the derived1 class method will be followed by the sequence defined in the paragraph above.
+
+For Example:
+class level1:
+      def first(self):
+            print ('code')
+
+class level2(level1): #inherit level1
+      def second(self):
+             print ('with')
+
+class level3(level2): #inherit level2
+      def third(self):
+            print ('harry')
+
+obj=level3()
+obj.first()
+obj.second()
+obj.third()
+Rules for Method overriding:-
+There are few rules for Method overriding that should be followed:
+
+The name of the child method should be the same as parents.
+Inheritance should be there, and we need to derive a child class from a parent class
+Both of their parameters should be the same.
+
+Multiple inheritance VS. Multilevel inheritance
+Multiple inheritance
+
+
+Course Content
+Overview
+Q&A
+Files
+Announcements
+Multilevel Inheritance | Python Tutorials For Absolute Beginners In Hindi #62
+In Tutorial#60, we learned inheritance, and in the previous tutorial of this course i.e., tutorial#61 , we leaned multiple inheritance. These topics are very important and crucial for us to understand today's topic, which is Multilevel inheritance.
+
+ 
+
+
+
+Figure 1: Multiple Inheritance
+
+Multiple inheritance and Multilevel inheritance are very similar concepts. If you have a complete understanding of multiple inheritance than understanding, multilevel will take no time. The minimum number of classes for Multilevel inheritance is the same as for multiple inheritance i.e., three. 
+
+What is Multilevel Inheritance in Python?
+In multilevel inheritance, a class that is already derived from another class is derived by a third class. So in this way, the third class has all the other two former classes' features and functionalities. The syntax looks something like this:
+
+class Parent1:
+    pass
+class Derived1(Parent1):
+    pass
+class Derived2(Derived1):
+    pass
+Now let us dive into the priority brought by the ordering of the class. Suppose that we are looking for a constructor or a value for any variable. Our program will first check our current class i.e., Derived2, for it. If nothing found, then it will move towards Derived1 and in order at last towards Parent1 until it finds the constructor or variable in the way.
+
+If we have the same method or variable in the base and derived class, then the order we discussed above will be followed, and the method will be overridden. Else, if the child class does not contain the same method, then the derived1 class method will be followed by the sequence defined in the paragraph above.
+
+For Example:
+class level1:
+      def first(self):
+            print ('code')
+
+class level2(level1): #inherit level1
+      def second(self):
+             print ('with')
+
+class level3(level2): #inherit level2
+      def third(self):
+            print ('harry')
+
+obj=level3()
+obj.first()
+obj.second()
+obj.third()
+Rules for Method overriding:-
+There are few rules for Method overriding that should be followed:
+
+The name of the child method should be the same as parents.
+Inheritance should be there, and we need to derive a child class from a parent class
+Both of their parameters should be the same.
+Multiple inheritance VS. Multilevel inheritance
+Multiple inheritance
+Multiple Inheritance is where a class inherits from more than one base class.
+Sometimes,multiple Inheritance makes the system more complex,that’s why it is not widely used.
+Multiple Inheritance has two class levels; these are base class and derived class.
+
+Multilevel inheritance
+In multilevel inheritance, we inherits from a derived class, making that derived class a base class for a new class.
+Multilevel Inheritance is widely used. It is easier to handle code when using multilevel inheritance.
+Multilevel Inheritance has three class levels, which are base class, intermediate class, and derived class.
+Advantages of Inheritance
+It reduces code redundancy.
+Multilevel inheritance provides code reusability.
+Using multilevel inheritance, code is easy to manage, and it supports code extensibility by overriding the base class functionality within child classes
+Code as described/written in the note
+
+class Dad:
+    basketball =6
+
+class Son(Dad):
+    dance =1
+    basketball = 9
+    def isdance(self):
+        return f"Yes I dance {self.dance} no of times"
+
+class Grandson(Son):
+    dance =6
+    guitar = 1
+
+    def isdance(self):
+        return f"Jackson yeah!" \
+            f"Yes I dance very awesomely {self.dance} no of times"
+
+darry = Dad()
+larry = Son()
+harry = Grandson()
+
+# print(darry.guitar)
+
+# electronic device
+# pocket gadget
+# phone
+
+
+
