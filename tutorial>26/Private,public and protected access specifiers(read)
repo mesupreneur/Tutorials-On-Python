@@ -13,3 +13,26 @@ Public Access Modifier:
 In public, all the functions, variables, methods can be used publicly. Meaning, every other class can access them easily without any restriction.
 Public members are generally methods declared in a class that is accessible from outside the class. Any ordinary class is by default, a public class. 
 So, all the classes we had made till now in the previous tutorials were all public by default.
+Example of public access modifier:
+class employee:
+      def __init__(self, name, age):
+            self.name=name
+            self.age=age
+Protected Access Modifier:
+In case of a protected class, its members and functions can only be accessed by the classes derived from it, i.e. its child class or classes. No other environment is permitted to access it. To declare a class as protected, we use a single underscore “_” sign before the data members of the class.
+
+Example of protected access modifier:
+class employee:
+      def __init__(self, name, age):
+            self._name=name # protected attribute 
+            self._age=age # protected
+Private Access Modifier:
+In the case of private access modifiers, the variables and functions can only be accessed within the class.
+The private restriction level is the highest for any class. To declare a class as private, we use a double underscore “_­_” sign before the data members of the class.
+Here is a suggestion not to try to access private variables from outside the class, because it will result in an AttributeError. 
+Example of private access modifier:
+class employee:
+      def __init__(self, name, age):
+            self.__name=name # private attribute 
+            self.__age=age # private 
+
