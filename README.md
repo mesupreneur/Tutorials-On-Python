@@ -43,3 +43,5 @@ This is the tutorials on python.
 38)multiple_inheritance.py
 39)multilevel_inheritance.py
 40)multilevel_inheritance(read)
+41)Private,public and protected access specifiers(read)
+42)Private,public and protected access specifiers.py
