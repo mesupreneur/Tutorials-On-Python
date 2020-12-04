@@ -35,4 +35,9 @@ class employee:
       def __init__(self, name, age):
             self.__name=name # private attribute 
             self.__age=age # private 
-
+Name mangling in Python:
+Python does not have any strict rules when it comes to public, protected or private, like java. 
+So, to protect us from using the private attribute in any other class, Python does name mangling, which means that every member with a double underscore will be changed to _object._class__variable when trying to call using an object. 
+The purpose of this is to warn a user, so he does not use any private class variable or function by mistake without realizing its states.
+The use of single underscore and double underscore is just a way of name mangling because Python does not take the public, private and protected terms much seriously
+so we have to use our naming conventions by putting single or double underscore to let the fellow programmers know which class they can access or which they can't.
