@@ -1,0 +1,19 @@
+Super() and Overriding In Classes | Python Tutorials For Absolute Beginners
+We have been using PyCharm for a long time now, let's discuss it's features and why is it recommended:
+
+Save time while PyCharm takes care of the routine. 
+Focus on the bigger things and embrace the keyboard-centric approach to get the most of PyCharm's many productivity features.
+PyCharm knows everything about your code. Rely on it for intelligent code completion, on-the-fly error checking and quick-fixes, easy project navigation, and much more.
+Write neat and maintainable code while the IDE helps you to keep control of the quality with PEP8 checks, testing assistance, smart refactorings, and a host of inspections.
+PyCharm is designed by programmers, for programmers, to provide all the tools you need for productive Python development.
+(These points are taken from jetbrains official site)
+As you people might have noticed that we came across super and overriding keywords, a lot of time in a few of our previous tutorials, but did not get into its detailed working. 
+The reason for that was to give you an idea of concepts leading to the use of super() and overriding first. In this tutorial, we are going to discuss it in detail, using the single inheritance as an example.
+Yet being different concepts, they are often used together. 
+The need for superclass arises when overriding is being done at a certain point in our code. Overriding is an essential part of object-oriented programming since it makes the inheritance utilize its full power. Overriding avoids duplication of code, and at the same time enhance or customize the part of it.
+It is a part of the inheritance mechanism.
+Let us get a description of overriding first so that we can dive into the concept of super() later. 
+How to override class methods in Python?
+Overriding occurs when a derived class or child class has the same method that has already been defined in the base or parent class. Being the same methods with the same name and number of parameters, when called checks for the method first in a child class, and runs it ignoring the method in the parent class because it is already overridden. In the case of Instance variables, the case is a little different. 
+When the method is called, the program will look for any instance variable having the same name as the one that is called in the child, then in the parent, and after that,
+ it comes again into child class if not found.
