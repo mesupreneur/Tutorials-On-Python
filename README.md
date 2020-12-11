@@ -45,3 +45,5 @@ This is the tutorials on python.
 40)multilevel_inheritance(read)
 41)Private,public and protected access specifiers(read)
 42)Private,public and protected access specifiers.py
+43)Polymorphism In Python | Python Tutorials
+44)Polymorphism.py
