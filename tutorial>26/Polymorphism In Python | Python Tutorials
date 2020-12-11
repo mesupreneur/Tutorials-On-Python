@@ -1,0 +1,47 @@
+Polymorphism In Python | Python Tutorials
+In this course we are working on PyCharm IDE. 
+There are also many other options available like Spyder, Idle, Wing, etc. but we will go with PyCharm for this series and you will see its benefits in the upcoming tutorials. 
+If you haven't downloaded it yet then download it by clicking on the Download PyCharm. This will take you to PyCharm official site.
+For installation guidelines, check Downloading Python and PyCharm Installation tutorial.
+I will recommend you installing the community version as the other one will expire after a month trail and after that you have to pay to use its features.
+
+Moving forward let's just open our PyCharm and create a new file.
+As always, I am again going to repeat: not to name our file similar to a module name. 
+The reason for that, I have discussed in Tutorial #45. 
+You can give it a read or watch the video for further clarification.
+
+
+We are going to name our file oops11.py here. 
+
+Our today's tutorial is mostly based on theory, although we will see its implementation in most of our next oop based Tutorials. 
+To have a firm grasp on the theoretical concepts is very important. Polymorphism is more of a technique rather than a skill which is based on just syntax. 
+Python is an object-oriented based programming language. Previously we have studied some important concepts of OOP, which includes  Inheritance and Abstraction & Encapsulation. 
+In this tutorial, we will learn about polymorphism and how we can implement it in Python.
+
+What Is Polymorphism?
+In basic English language, Polymorphism means to exist in different states.
+The same object or thing changing its state from one form to another is known as polymorphic. A same function or method, being used differently in different scenarios can perfectly describe polymorphism. 
+It occurs mostly with base and derived class.  
+
+Understanding Polymorphism in Python
+The concept of polymorphism has very strong ties with method overriding concept that we will learn in the next Tutorial i.e tutorial#65 of this course along with super() function. 
+In Python, it is mostly related to objects or the values of variables that are assigned in different classes.
+For example, if a method in the child class that has the same name as the methods in the parent class and also they take the same number of variables as parameters, then the child class will inherit the methods
+from the parent class and will override the method too. Meaning that the compiler will execute the method in the child because it will be the first place it looks while searching for the method when called. 
+By overriding a method, we can also add some more functionalities in it, so in a way modifying the method in the child class but letting it remain the same in the parent class.
+
+For example:
+len("Python") # returns 6 as result
+len([1,2,3,4,5,6,7,8,9]) # returns 9 as result
+Python also implements polymorphism using methods. The len() method returns the length of an object. 
+In this case, the function len() is polymorphic as it is taking a string as input in the first case which returns total length/characters of the string and in the second case, it is taking list as input.
+Polymorphism is a very important concept. 
+Although being a theoretical concept, it is of great importance as it teaches us to use one entity, let it be a method or variable, differently at different places. 
+By applying the concept of polymorphism, we can not only can save our time but also can make our code more efficient and compact by using the DRY (Don't Repeat Yourself) concept, which is the basis of Oop.
+
+We can apply the concept of polymorphism on the methods, objects, functions and also while using inheritance. Even though the syntax and rules differ, but the concept remains the same. 
+
+Polymorphism in '+' operator:-
+In the above video tutorial, we have used the '+' arithmetic python operator two times in our programs. 
+This is an example of the implementation of polymorphism in Python. We can use the same + operator whether we want to add two integers, or concatenate two strings, or extend two lists. 
+The + arithmetic operator acts differently depending on the type of objects it is operating upon.
