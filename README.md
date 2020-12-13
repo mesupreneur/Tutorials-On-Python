@@ -47,3 +47,5 @@ This is the tutorials on python.
 42)Private,public and protected access specifiers.py
 43)Polymorphism In Python | Python Tutorials
 44)Polymorphism.py
+45)Super() and Overriding In Classes(read)
+46)Super() and Overriding.py
