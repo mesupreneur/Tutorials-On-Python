@@ -51,3 +51,4 @@ This is the tutorials on python.
 46)Super() and Overriding.py
 47)Diamond Shape Problem In Multiple Inheritance | Python
 48)Operator Overloading & Dunder Methods | Python
+49)Abstract Base Class & @abstractmethod | Python Tutorials For Absolute
