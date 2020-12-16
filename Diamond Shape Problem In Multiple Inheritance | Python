@@ -39,6 +39,7 @@ Sometimes, when we are working with too many classes, the concept of multiple in
  
 You can see in the highlighted area that, it is a little difficult to understand which method is overriding which one, so multiple inheritance is discouraged in such situations.
 If the C class would be on left, such as
+download(1).png
 Code as described/written in the video
    
 
