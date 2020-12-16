@@ -5,7 +5,7 @@ Our today’s tutorial is also based on a theoretical concept.
 In previous tutorials, we have seen a lot of concepts related to Object-Oriented programming such as Single inheritance, Multiple Inheritance, Multilevel Inheritance, etc. 
 Today we are going to discuss a problem or more like a confusion associated with multiple inheritance. The problem is commonly known as the “Diamond Shape Problem.”.
 It is about a priority related confusion, which arises when four classes are related to each other by an inheritance relationship, as shown in the image below:
-
+Download.png
 
 Explanation:-
 Now we can see that the class C and class B are inheriting from class A, or it can be said as, class A is a parent to class B and C. 
