@@ -53,3 +53,4 @@ This is the tutorials on python.
 48)Operator Overloading & Dunder Methods | Python
 49)Abstract Base Class & @abstractmethod | Python Tutorials For Absolute
 50)Setters & Property Decorators | Python Tutorials
+51)Object Introspection | Python
