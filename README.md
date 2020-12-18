@@ -52,3 +52,4 @@ This is the tutorials on python.
 47)Diamond Shape Problem In Multiple Inheritance | Python
 48)Operator Overloading & Dunder Methods | Python
 49)Abstract Base Class & @abstractmethod | Python Tutorials For Absolute
+50)Setters & Property Decorators | Python Tutorials
