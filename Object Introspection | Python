@@ -1,0 +1,22 @@
+Object Introspection | Python
+In today’s tutorial, we are going to learn about object introspection. We have used it a bit in our previous tutorial but never discussed it in depth. As we have discussed earlier that everything in Python is an object. All the functions we use regularly are predefined in some built-in class. 
+For example, while printing any string, we are using the object of an str class that is predefined for the usage of string.
+Object Introspection in Python
+Introspection can be said as the ability to recognize the object along with all its details, such as id or location at runtime. 
+One of the most basic introspects we came across many times earlier is type(). 
+
+type(object)
+We used it to see the type of our object, that whether it is int, float or string. We have to pass the object in the parenthesis, and the compiler will return the type. 
+Introspection gives us useful information about the program’s objects. 
+Python provides tremendous introspection support. Introspection is an ability to determine the type of an object at runtime. Henceforth, by using introspection, we can inspect the Python objects dynamically.
+
+There are many types of introspects. 
+In this tutorial, we will focus on three of them so you may get a brief idea about their working. 
+You may search the internet for more, but for conceptual learning, we will be focusing on three. We have already discussed type( ), now let’s move onto id( ). 
+Id provides us with the id allocated to the particular object. 
+The id of each object is unique, meaning it is different, and no two objects can have the same id. 
+id(object)
+Now the most important introspection function is dir(). It returns us a list of attributes and methods associated with an object. By using dir(), we can check the attributes that our object is composed of. It is mostly executed before and after updating our object by inserting more attributes or methods. 
+
+o = MyClass()
+print(dir(o))
